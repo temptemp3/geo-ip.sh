@@ -1,6 +1,6 @@
 # geo-ip.sh
 
-Add ip geolotion lookup to bash script
+Add ip geolocation lookup to bash script
 
 ## quickstart
 
