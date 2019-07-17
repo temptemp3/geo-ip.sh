@@ -1,7 +1,9 @@
 #!/bin/bash
 ## geo-ip
-## version 0.0.1 - initial
+## version 0.0.2 - using local sh2 by default
 ##################################################
+SH2="$( dirname ${0} )/sh2"	# candidate sh2
+test -d "${SH2}" || exit 2	# missing sh2
 . ${SH2}/error.sh		# error handling
 error "true"			# show errors
 . ${SH2}/cecho.sh		# colored echo
